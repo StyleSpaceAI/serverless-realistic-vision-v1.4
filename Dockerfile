@@ -17,7 +17,7 @@ ADD server.py .
 
 # ChangeMe to the Huggingface model that you want to deploy
 ARG MODEL_NAME
-ENV MODEL_NAME=SG161222/Realistic_Vision_V1.4
+ENV MODEL_NAME=SG161222/Realistic_Vision_V1.4_Fantasy.ai
 
 # Add your model weight files 
 # (in this case we have a python script)
